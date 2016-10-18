@@ -1,4 +1,4 @@
-Boxing is one of my first projexts on GitHub and its goal is to be a simple timekiller and training your brain at the same time.
+Boxing is one of my first projects on GitHub and its goal is to be a simple timekiller and training your brain at the same time.
 
 At the beginning from level-to-level different number of objects looking like numbers are shown in an empty room.
 
