@@ -1,4 +1,4 @@
-Boxing is one of my first projects on GitHub and its goal is to be a simple timekiller and training your brain at the same time.
+Boxing is one of my first projects on GitHub and its goal is to be a simple but addictive minigame.
 
 Download the latest prototype(~3mb): https://github.com/Lerrrtaste/boxing-game/releases
 
