@@ -58,7 +58,11 @@ for (i=100; i&gt;0; i-=1) //creating array slots for instance id´s -&gt; numbr
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.mode = 2;
+            <string>if global.viewtime == 0 global.mode = 2; else
+{
+global.viewtime -= 1;
+alarm[0] = 60;
+}
 </string>
           </argument>
         </arguments>
@@ -83,7 +87,7 @@ for (i=100; i&gt;0; i-=1) //creating array slots for instance id´s -&gt; numbr
             <kind>1</kind>
             <string>if global.mode == 1 &amp;&amp; alarm[0] == -1
 {
-alarm[0] = global.viewtime * 60;
+alarm[0] = 60;
 }
 
 if global.next-1 == global.total
@@ -146,7 +150,10 @@ scr_start_rnd(global.rnd);
             <string>if vis == 1 draw_self();
 draw_text(15,15,"Lives:" + string(lives));
 draw_text(15,30,"Round:" + string(global.rnd));
-draw_text(15,45,"Very early unfinished version!");
+draw_text(15,45,"Very early yet unfinished version! (v009)");
+draw_set_font(fnt_timer);
+if global.mode == 1 draw_text(room_width*.5,room_height*.5,string(global.viewtime));
+draw_set_font(fnt_default);
 </string>
           </argument>
         </arguments>

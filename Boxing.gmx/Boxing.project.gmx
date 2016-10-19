@@ -12,15 +12,9 @@
     <sprite>sprites\spr_particles</sprite>
     <sprite>sprites\spr_next</sprite>
     <sprite>sprites\spr_rightwrong_part</sprite>
-    <sprite>sprites\s_wall</sprite>
-    <sprite>sprites\s_box</sprite>
-    <sprite>sprites\s_earth</sprite>
-    <sprite>sprites\s_wood</sprite>
-    <sprite>sprites\s_ball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
-    <background>background\b_wood</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -29,7 +23,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_default</font>
-    <font>fonts\f_std</font>
+    <font>fonts\fnt_timer</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_mouse</object>
