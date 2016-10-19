@@ -12,6 +12,8 @@
     <sprite>sprites\spr_particles</sprite>
     <sprite>sprites\spr_next</sprite>
     <sprite>sprites\spr_rightwrong_part</sprite>
+    <sprite>sprites\spr_healthbar</sprite>
+    <sprite>sprites\spr_hearth</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -32,6 +34,8 @@
     <object>objects\obj_rightwrong_part</object>
     <object>objects\obj_box</object>
     <object>objects\obj_next</object>
+    <object>objects\obj_healthbar</object>
+    <object>objects\obj_livelost</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_airport1</room>
