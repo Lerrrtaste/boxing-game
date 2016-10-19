@@ -16,6 +16,6 @@ the player a good feeling when doing something right) wich is why i want to add 
 
 ![alt tag](http://i.imgur.com/0BMw5ek.png)
 
-All sprites are still placeholders. I will first focus on the game base before creating better sprites.
+All sprites are still placeholders. I will first focus on the game core before creating better sprites.
 
 I appreciate EVERY contribution. :)
