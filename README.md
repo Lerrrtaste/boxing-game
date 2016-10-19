@@ -1,5 +1,7 @@
 Boxing is one of my first projects on GitHub and its goal is to be a simple timekiller and training your brain at the same time.
 
+Download the latest prototype(~3mb): https://github.com/Lerrrtaste/boxing-game/releases
+
 At the beginning from level-to-level different number of objects looking like numbers are shown in an empty room.
 
 ![alt tag](http://i.imgur.com/diQC3iy.png)
