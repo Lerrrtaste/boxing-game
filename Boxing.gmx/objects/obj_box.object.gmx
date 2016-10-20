@@ -72,7 +72,8 @@ y = random(room_height-room_height*.2)+room_height*.1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if mouse_check_button_pressed(mb_left) &amp;&amp; global.mode == 2
+            <string>if mouse_check_button_pressed(mb_left) &amp;&amp; global.mode != 2 global.mode = 2;
+if mouse_check_button_pressed(mb_left) &amp;&amp; global.mode == 2
 {
     if global.folge[id] == global.next
     {

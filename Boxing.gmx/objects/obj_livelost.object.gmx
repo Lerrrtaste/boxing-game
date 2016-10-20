@@ -54,7 +54,7 @@ adown = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>adown = .02;
+            <string>adown = 0.02;
 </string>
           </argument>
         </arguments>

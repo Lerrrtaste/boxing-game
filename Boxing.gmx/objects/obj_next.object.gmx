@@ -26,8 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>global.next = 1;//wich nmbr is next
-global.total = 0//total boxes
-global.viewtime = 3//duration the numbrs are shown
+global.total = 0;//total boxes
+global.money = 0;//self explaining
+global.viewtime = 3;//duration the numbrs are shown
 global.rnd = 0; // wich lvl is player
 reqtime = 0; //required secs player needed to solve lvl
 temp_reqtime = 0; //temporary value to convert frames to secs 
@@ -167,14 +168,16 @@ scr_start_rnd(global.rnd);
             <string>if vis == 1 draw_self();
 draw_text(15,15,"Lives:" + string(lives));
 draw_text(15,30,"Round:" + string(global.rnd));
-draw_text(15,45,"protoype v010");
+draw_text(15,45,"Money:" + string(global.money));
+draw_text(15,60,"protoype v010");
+
 
 if global.mode == 3
 {
 draw_set_halign(fa_center);
 draw_text(x,y+50,"You solved Level "+ string(global.rnd) +" in just "+ string(reqtime) +" seconds. Wow.")
-draw_text(15,60,"test");
 draw_set_halign(fa_left);
+draw_text(15,75,"Click chest to open shop");
 }
 
 draw_set_font(fnt_timer);

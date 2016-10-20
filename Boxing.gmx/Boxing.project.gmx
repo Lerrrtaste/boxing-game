@@ -14,9 +14,12 @@
     <sprite>sprites\spr_rightwrong_part</sprite>
     <sprite>sprites\spr_healthbar</sprite>
     <sprite>sprites\spr_hearth</sprite>
+    <sprite>sprites\spr_money</sprite>
+    <sprite>sprites\spr_chest</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
+    <background>background\bg_yellowstone</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -36,6 +39,8 @@
     <object>objects\obj_next</object>
     <object>objects\obj_healthbar</object>
     <object>objects\obj_livelost</object>
+    <object>objects\obj_money</object>
+    <object>objects\obj_bank</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_airport1</room>
