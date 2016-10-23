@@ -85,7 +85,7 @@ if mouse_check_button_pressed(mb_left) &amp;&amp; global.mode == 2
     {
     scr_rightwrong(x,y,1);
     lives--
-    global.mode = 3;
+    
     instance_destroy();
     }
 }

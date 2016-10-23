@@ -108,6 +108,7 @@ vis = 1;
 }
 
 if global.mode == 2 temp_reqtime += 1;
+if global.mode == 2 &amp;&amp; !instance_exists(obj_box) global.mode = 3;
 
 if temp_reqtime == room_speed &amp;&amp; global.mode == 2
 {

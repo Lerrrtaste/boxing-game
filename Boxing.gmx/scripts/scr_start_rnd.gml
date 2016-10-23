@@ -13,7 +13,7 @@ for (i=0; i<100; i+=1) //cleaning up array slots for instance id´s -> numbr
 //---------------------------------------------------------------------------------------
 if lvl == 1
 {
-global.viewtime = 3 //time nmbrs are shown in sec
+global.viewtime = 1 //time nmbrs are shown in sec
     repeat(2) //how many chest will spawn
     {
     global.total++
@@ -24,7 +24,7 @@ global.viewtime = 3 //time nmbrs are shown in sec
 }
 if lvl == 2
 {
-global.viewtime = 3 //time nmbrs are shown in sec
+global.viewtime = 1 //time nmbrs are shown in sec
     repeat(3) //how many chest will spawn
     {
     global.total++
@@ -35,7 +35,7 @@ global.viewtime = 3 //time nmbrs are shown in sec
 }
 if lvl == 3
 {
-global.viewtime = 3 //time nmbrs are shown in sec
+global.viewtime = 1 //time nmbrs are shown in sec
     repeat(3) //how many chest will spawn
     {
     global.total++
@@ -57,7 +57,7 @@ global.viewtime = 2 //time nmbrs are shown in sec
 }
 if lvl == 5
 {
-global.viewtime = 3 //time nmbrs are shown in sec
+global.viewtime = 2 //time nmbrs are shown in sec
     repeat(4) //how many chest will spawn
     {
     global.total++
@@ -90,7 +90,7 @@ global.viewtime = 2 //time nmbrs are shown in sec
 }
 if lvl == 8
 {
-global.viewtime = 4 //time nmbrs are shown in sec
+global.viewtime = 3 //time nmbrs are shown in sec
     repeat(6) //how many chest will spawn
     {
     global.total++
@@ -123,7 +123,7 @@ global.viewtime = 4 //time nmbrs are shown in sec
 }
 if lvl == 11
 {
-global.viewtime = 4 //time nmbrs are shown in sec
+global.viewtime = 3 //time nmbrs are shown in sec
     repeat(7) //how many chest will spawn
     {
     global.total++
@@ -145,7 +145,7 @@ global.viewtime = 3 //time nmbrs are shown in sec
 }
 if lvl == 13
 {
-global.viewtime = 5 //time nmbrs are shown in sec
+global.viewtime = 4 //time nmbrs are shown in sec
     repeat(8) //how many chest will spawn
     {
     global.total++
@@ -157,7 +157,7 @@ global.viewtime = 5 //time nmbrs are shown in sec
 
 if lvl == 14
 {
-global.viewtime = 5 //time nmbrs are shown in sec
+global.viewtime = 3 //time nmbrs are shown in sec
     repeat(8) //how many chest will spawn
     {
     global.total++
@@ -168,7 +168,7 @@ global.viewtime = 5 //time nmbrs are shown in sec
 }
 if lvl == 15
 {
-global.viewtime = 4 //time nmbrs are shown in sec
+global.viewtime = 2 //time nmbrs are shown in sec
     repeat(8) //how many chest will spawn
     {
     global.total++
@@ -179,7 +179,7 @@ global.viewtime = 4 //time nmbrs are shown in sec
 }
 if lvl == 16
 {
-global.viewtime = 6 //time nmbrs are shown in sec
+global.viewtime = 4 //time nmbrs are shown in sec
     repeat(9) //how many chest will spawn
     {
     global.total++
@@ -190,7 +190,7 @@ global.viewtime = 6 //time nmbrs are shown in sec
 }
 if lvl == 17
 {
-global.viewtime = 5 //time nmbrs are shown in sec
+global.viewtime = 3 //time nmbrs are shown in sec
     repeat(9) //how many chest will spawn
     {
     global.total++
@@ -201,7 +201,7 @@ global.viewtime = 5 //time nmbrs are shown in sec
 }
 if lvl == 18
 {
-global.viewtime = 4 //time nmbrs are shown in sec
+global.viewtime = 2 //time nmbrs are shown in sec
     repeat(9) //how many chest will spawn
     {
     global.total++
@@ -212,7 +212,7 @@ global.viewtime = 4 //time nmbrs are shown in sec
 }
 if lvl == 19
 {
-global.viewtime = 3 //time nmbrs are shown in sec
+global.viewtime = 2 //time nmbrs are shown in sec
     repeat(9) //how many chest will spawn
     {
     global.total++
@@ -223,7 +223,7 @@ global.viewtime = 3 //time nmbrs are shown in sec
 }
 if lvl == 20
 {
-global.viewtime = 2 //time nmbrs are shown in sec
+global.viewtime = 1 //time nmbrs are shown in sec
     repeat(9) //how many chest will spawn
     {
     global.total++

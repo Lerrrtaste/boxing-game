@@ -62,9 +62,8 @@ if animation == 2
 image_xscale += 0.025;
 }
 
-if image_xscale == 1 &amp;&amp; animation == 2 animation = 0;
+if image_xscale &gt;= 1 &amp;&amp; animation == 2 animation = 0;
 
-clamp(image_xscale,0.7,1);
 image_yscale = image_xscale;
 </string>
           </argument>
@@ -111,7 +110,8 @@ image_yscale = image_xscale;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>global.mode = 0;
+</string>
           </argument>
         </arguments>
       </action>
