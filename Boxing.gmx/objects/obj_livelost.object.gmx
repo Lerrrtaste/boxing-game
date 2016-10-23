@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_speed = .25;
 direction = 270;
-depth = -50
+depth = 50
 speed = .75;
 alarm[0] = 100;
 image_alpha = 1;
