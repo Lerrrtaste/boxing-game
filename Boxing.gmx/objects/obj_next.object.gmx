@@ -96,15 +96,14 @@ alarm[0] = 60;
 alarm[0] = 60;
 }
 
-if global.next-1 == global.total
+if global.next-1 == global.total &amp;&amp; global.mode == 2
 {
 global.mode = 3;
 }
 
-if global.mode == 3 
+if global.mode == 3 or global.mode == 4
 {
 vis = 1;
-
 }
 
 if global.mode == 2 temp_reqtime += 1;
@@ -114,6 +113,13 @@ if temp_reqtime == room_speed &amp;&amp; global.mode == 2
 {
 temp_reqtime = 0;
 reqtime += 1;
+}
+
+if lives == 0 &amp;&amp; global.bugfix1 == 0
+{
+global.bugfix1 = 1;
+global.mode = 4;
+scr_gameover();
 }
 </string>
           </argument>
@@ -143,6 +149,12 @@ vis = 0;
 global.mode = 1;
 global.rnd += 1;
 scr_start_rnd(global.rnd);
+}
+
+if mouse_check_button_pressed(mb_left) &amp;&amp; global.mode == 4
+{
+room_goto(rm_menu);
+global.mode = 0;
 }
 </string>
           </argument>

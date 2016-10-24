@@ -16,15 +16,22 @@
     <sprite>sprites\spr_hearth</sprite>
     <sprite>sprites\spr_money</sprite>
     <sprite>sprites\spr_chest</sprite>
+    <sprite>sprites\spr_statsbanner</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
     <background>background\bg_yellowstone</background>
+    <background>background\bg_magma</background>
+    <background>background\bg_red</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_rightwrong.gml</script>
     <script>scripts\scr_start_rnd.gml</script>
+    <script>scripts\scr_savegame.gml</script>
+    <script>scripts\scr_loadgame.gml</script>
+    <script>scripts\scr_gameover.gml</script>
+    <script>scripts\scr_gamestart.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_default</font>
@@ -41,9 +48,12 @@
     <object>objects\obj_livelost</object>
     <object>objects\obj_money</object>
     <object>objects\obj_bank</object>
+    <object>objects\obj_stats</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_airport1</room>
+    <room>rooms\rm_playfield</room>
+    <room>rooms\rm_gameover</room>
+    <room>rooms\rm_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
